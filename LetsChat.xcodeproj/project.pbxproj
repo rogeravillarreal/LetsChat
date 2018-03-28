@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D5C3F418BDBAFC2818D2588E /* Pods_LetsChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A8DA72BD56652AB83068B95 /* Pods_LetsChat.framework */; };
+		EE05AD47202BE0D8003F4574 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE05AD46202BE0D8003F4574 /* ChatViewController.swift */; };
+		EE05AD49202BEF74003F4574 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE05AD48202BEF74003F4574 /* LogInViewController.swift */; };
+		EE05AD4F202BFF43003F4574 /* MessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE05AD4D202BFF43003F4574 /* MessageTableViewCell.swift */; };
+		EE05AD50202BFF43003F4574 /* MessageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE05AD4E202BFF43003F4574 /* MessageTableViewCell.xib */; };
+		EE05AD53202D3320003F4574 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE05AD52202D3320003F4574 /* Message.swift */; };
+		EEDD28222029DA8700A9D8C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDD28212029DA8700A9D8C5 /* AppDelegate.swift */; };
+		EEDD28242029DA8700A9D8C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDD28232029DA8700A9D8C5 /* ViewController.swift */; };
+		EEDD28272029DA8700A9D8C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEDD28252029DA8700A9D8C5 /* Main.storyboard */; };
+		EEDD28292029DA8700A9D8C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEDD28282029DA8700A9D8C5 /* Assets.xcassets */; };
+		EEDD282C2029DA8700A9D8C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEDD282A2029DA8700A9D8C5 /* LaunchScreen.storyboard */; };
+		EEF3C23B202A958600DC03A5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EEF3C23A202A944A00DC03A5 /* GoogleService-Info.plist */; };
+		EEF3C23D202AA0B400DC03A5 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF3C23C202AA0B400DC03A5 /* RegisterViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		646D0E7A6ACC21049971D2A9 /* Pods-LetsChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LetsChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LetsChat/Pods-LetsChat.debug.xcconfig"; sourceTree = "<group>"; };
+		6A8DA72BD56652AB83068B95 /* Pods_LetsChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LetsChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD9FDDE9E318EC608F8AECD7 /* Pods-LetsChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LetsChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-LetsChat/Pods-LetsChat.release.xcconfig"; sourceTree = "<group>"; };
+		EE05AD46202BE0D8003F4574 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		EE05AD48202BEF74003F4574 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		EE05AD4D202BFF43003F4574 /* MessageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageTableViewCell.swift; sourceTree = "<group>"; };
+		EE05AD4E202BFF43003F4574 /* MessageTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageTableViewCell.xib; sourceTree = "<group>"; };
+		EE05AD52202D3320003F4574 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		EEDD281E2029DA8700A9D8C5 /* LetsChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LetsChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEDD28212029DA8700A9D8C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EEDD28232029DA8700A9D8C5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EEDD28262029DA8700A9D8C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EEDD28282029DA8700A9D8C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EEDD282B2029DA8700A9D8C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EEDD282D2029DA8700A9D8C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEF3C23A202A944A00DC03A5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EEF3C23C202AA0B400DC03A5 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEDD281B2029DA8700A9D8C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5C3F418BDBAFC2818D2588E /* Pods_LetsChat.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27E0C9F4250A9BDA96D1BCDE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A8DA72BD56652AB83068B95 /* Pods_LetsChat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CDFF712B9E0EDBD5651E95D9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				646D0E7A6ACC21049971D2A9 /* Pods-LetsChat.debug.xcconfig */,
+				CD9FDDE9E318EC608F8AECD7 /* Pods-LetsChat.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EE05AD4A202BF581003F4574 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EEDD28212029DA8700A9D8C5 /* AppDelegate.swift */,
+				EEDD28232029DA8700A9D8C5 /* ViewController.swift */,
+				EEF3C23C202AA0B400DC03A5 /* RegisterViewController.swift */,
+				EE05AD46202BE0D8003F4574 /* ChatViewController.swift */,
+				EE05AD48202BEF74003F4574 /* LogInViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EE05AD4B202BF59A003F4574 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EEDD28252029DA8700A9D8C5 /* Main.storyboard */,
+				EE05AD4D202BFF43003F4574 /* MessageTableViewCell.swift */,
+				EE05AD4E202BFF43003F4574 /* MessageTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EE05AD4C202BF5BF003F4574 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE05AD51202D330C003F4574 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EE05AD52202D3320003F4574 /* Message.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EEDD28152029DA8700A9D8C5 = {
+			isa = PBXGroup;
+			children = (
+				EEDD28202029DA8700A9D8C5 /* LetsChat */,
+				EEDD281F2029DA8700A9D8C5 /* Products */,
+				CDFF712B9E0EDBD5651E95D9 /* Pods */,
+				27E0C9F4250A9BDA96D1BCDE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EEDD281F2029DA8700A9D8C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEDD281E2029DA8700A9D8C5 /* LetsChat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEDD28202029DA8700A9D8C5 /* LetsChat */ = {
+			isa = PBXGroup;
+			children = (
+				EE05AD51202D330C003F4574 /* Model */,
+				EE05AD4A202BF581003F4574 /* Controller */,
+				EE05AD4B202BF59A003F4574 /* View */,
+				EEDD28282029DA8700A9D8C5 /* Assets.xcassets */,
+				EEDD282A2029DA8700A9D8C5 /* LaunchScreen.storyboard */,
+				EEDD282D2029DA8700A9D8C5 /* Info.plist */,
+				EEF3C23A202A944A00DC03A5 /* GoogleService-Info.plist */,
+				EE05AD4C202BF5BF003F4574 /* Supporting Files */,
+			);
+			path = LetsChat;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEDD281D2029DA8700A9D8C5 /* LetsChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEDD28302029DA8700A9D8C5 /* Build configuration list for PBXNativeTarget "LetsChat" */;
+			buildPhases = (
+				ECA0695DFCCE3F47CEFA6E8F /* [CP] Check Pods Manifest.lock */,
+				EEDD281A2029DA8700A9D8C5 /* Sources */,
+				EEDD281B2029DA8700A9D8C5 /* Frameworks */,
+				EEDD281C2029DA8700A9D8C5 /* Resources */,
+				912EF14919CF9EF1B845BDAE /* [CP] Embed Pods Frameworks */,
+				1FDB5E679D2F952EF7697416 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LetsChat;
+			productName = LetsChat;
+			productReference = EEDD281E2029DA8700A9D8C5 /* LetsChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEDD28162029DA8700A9D8C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Roger Alexander";
+				TargetAttributes = {
+					EEDD281D2029DA8700A9D8C5 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EEDD28192029DA8700A9D8C5 /* Build configuration list for PBXProject "LetsChat" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EEDD28152029DA8700A9D8C5;
+			productRefGroup = EEDD281F2029DA8700A9D8C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEDD281D2029DA8700A9D8C5 /* LetsChat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEDD281C2029DA8700A9D8C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEDD282C2029DA8700A9D8C5 /* LaunchScreen.storyboard in Resources */,
+				EEF3C23B202A958600DC03A5 /* GoogleService-Info.plist in Resources */,
+				EE05AD50202BFF43003F4574 /* MessageTableViewCell.xib in Resources */,
+				EEDD28292029DA8700A9D8C5 /* Assets.xcassets in Resources */,
+				EEDD28272029DA8700A9D8C5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1FDB5E679D2F952EF7697416 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LetsChat/Pods-LetsChat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		912EF14919CF9EF1B845BDAE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LetsChat/Pods-LetsChat-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LetsChat/Pods-LetsChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECA0695DFCCE3F47CEFA6E8F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LetsChat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEDD281A2029DA8700A9D8C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEF3C23D202AA0B400DC03A5 /* RegisterViewController.swift in Sources */,
+				EEDD28242029DA8700A9D8C5 /* ViewController.swift in Sources */,
+				EE05AD47202BE0D8003F4574 /* ChatViewController.swift in Sources */,
+				EE05AD49202BEF74003F4574 /* LogInViewController.swift in Sources */,
+				EEDD28222029DA8700A9D8C5 /* AppDelegate.swift in Sources */,
+				EE05AD4F202BFF43003F4574 /* MessageTableViewCell.swift in Sources */,
+				EE05AD53202D3320003F4574 /* Message.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EEDD28252029DA8700A9D8C5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEDD28262029DA8700A9D8C5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EEDD282A2029DA8700A9D8C5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEDD282B2029DA8700A9D8C5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EEDD282E2029DA8700A9D8C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EEDD282F2029DA8700A9D8C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEDD28312029DA8700A9D8C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 646D0E7A6ACC21049971D2A9 /* Pods-LetsChat.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B6H462SWUW;
+				INFOPLIST_FILE = LetsChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rogeralexander.LetsChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EEDD28322029DA8700A9D8C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD9FDDE9E318EC608F8AECD7 /* Pods-LetsChat.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B6H462SWUW;
+				INFOPLIST_FILE = LetsChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rogeralexander.LetsChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEDD28192029DA8700A9D8C5 /* Build configuration list for PBXProject "LetsChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEDD282E2029DA8700A9D8C5 /* Debug */,
+				EEDD282F2029DA8700A9D8C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEDD28302029DA8700A9D8C5 /* Build configuration list for PBXNativeTarget "LetsChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEDD28312029DA8700A9D8C5 /* Debug */,
+				EEDD28322029DA8700A9D8C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEDD28162029DA8700A9D8C5 /* Project object */;
+}
